@@ -1,4 +1,21 @@
 
+### How To
+
+[How to set up an environment with venv](https://arelle.readthedocs.io/en/latest/contributing.html#setting-up-your-environment)
+
+* Fork the Arelle repo
+* Clone your fork: git clone git@github.com:<your-github-username>/Arelle.git
+* Install pyenv
+* Install a supported version of Python. For example, pyenv install 3.11.5
+* Create a virtual env using the Python version you just installed. For example, PYENV_VERSION=3.11.5 pyenv exec python -m venv venv
+* Activate your environment: source venv/bin/activate
+* Install dependencies: pip install -r requirements-dev.txt
+
+Verify you can run the app
+* GUI: python arelleGUI.pyw
+* CLI: python arelleCmdLine.py
+
+### venv versus virtualenv
 
 [Difference between venv and virtualenv](https://pythonhow.com/what/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrapper-pipenv/)
 
