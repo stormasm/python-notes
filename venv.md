@@ -1,4 +1,9 @@
 
+
+### References
+
+[python environment setup](https://gist.github.com/stormasm/7bd667d6b8629e54f85328215e49520e)
+
 ### How To
 
 [How to set up an environment with venv](https://arelle.readthedocs.io/en/latest/contributing.html#setting-up-your-environment)
