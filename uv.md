@@ -13,6 +13,12 @@ Python is located here:
 /Users/ma/mia/uv
 ```
 
+The uv cache is located here:
+
+```rust
+/Users/ma/.cache
+```
+
 ### Installing uv
 
 ```rust
