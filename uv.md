@@ -25,8 +25,15 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/Users/ma/mia/u
 uv python install -i "/Users/ma/mia/uv"
 ```
 
-### Steps to get started
+### Uninstall Python
 
+```rust
+uv python uninstall --all
+```
+
+### Steps to get started with Nushell
+
+- [nu-jupyter-kernel](https://github.com/stormasm/nu-jupyter-kernel)
 - Assuming you have uv installed
 - Go to *tmp34* or where ever you want the root of your project to be
 
