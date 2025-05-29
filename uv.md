@@ -1,4 +1,39 @@
 
+### Where is stuff located
+
+The uv binaries are located here
+
+```rust
+/Users/ma/mia/uv/bin
+```
+
+Python is located here:
+
+```rust
+/Users/ma/mia/uv
+```
+
+### Installing uv
+
+```rust
+curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/Users/ma/mia/uv/bin" sh
+```
+
+### Uninstalling uv
+
+- [Uninstall uv](https://docs.astral.sh/uv/getting-started/installation/#uninstallation)
+
+
+### Installing Python
+
+```rust
+uv python install
+```
+
+
+### Installing python
+
+
 ### Steps to get started
 
 - Assuming you have uv installed
@@ -17,5 +52,6 @@ uv run --with jupyter jupyter lab
 
 ### References
 
-- [how to install uv](https://docs.astral.sh/uv/configuration/installer/#disabling-shell-modifications)
+- [how to install uv](https://docs.astral.sh/uv/configuration/installer)
+- [how to install python](https://docs.astral.sh/uv/reference/cli/#uv-python)
 - [using uv with jupyter](https://docs.astral.sh/uv/guides/integration/jupyter/)
